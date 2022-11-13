@@ -37,7 +37,11 @@ body {
 
 .card-img-top{
     width: 100%;
-    height: 80%;
+    height: 75%;
+}
+
+.img-fluid{
+    height: 75%;
 }
 
 .btn-liked{
@@ -52,7 +56,20 @@ body {
     background-color: #e94135;
     color: #ffff;
 }
+.btn-primary {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
 
+h9{
+    font-weight: bold;
+}
+/* .postInfo{
+    text-align: center;
+
+
+} */
 /* .card-img-top {
     width: 100%;
     height: 20vw;

@@ -20,19 +20,20 @@
           method="POST"
           class="col-3"
         > 
-          <button class="btn btn-primary fa fa-trash" type="submit"> Discharge</button>
+          <button class="btn btn-primary" type="submit"> Discharge</button>
         </form> 
         
         <%}%>
       </div>
     </div>
     <div class="col-3 mt-5">
-      <p>Diagnosis: <%= post.diagnosis %></p>
-      <p>Assist Levels: <%= post.caption %></p>
-      <p>Goals: <%= post.ptGoals %></p>
-      <p>Location: <%= post.locationAddress %></p>
-      <p>Phone Number: <%= post.ptPhoneNum %></p>
-      <p>Email: <%= post.ptEmail %></p>
+      <!-- <div class="postInfo"> -->
+      <h9>Diagnosis:</h9> <p><%= post.diagnosis %></p>
+      <h9>Assist Levels:</h9> <p><%= post.caption %></p>
+      <h9>Goals:</h9> <p><%= post.ptGoals %></p>
+      <h9>Location:</h9> <p><%= post.locationAddress %></p>
+      <h9>Phone Number:</h9> <p><%= post.ptPhoneNum %></p>
+      <h9>Email:</h9> <p><%= post.ptEmail %></p>
 
     </div>
     <!-- <div class="col-6 mt-5">

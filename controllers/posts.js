@@ -20,8 +20,8 @@ module.exports = {
   },
   getmyPatients: async (req, res) => {
     try {
-      const posts = await Post.find().sort({ createdAt: "desc" }).lean();
-      res.render("myPatients.ejs", { posts: posts });
+      const posts = await Post.find({ user: req.user.id });
+      res.render("myPatients.ejs", { posts: posts, user: req.user});
     } catch (err) {
       console.log(err);
     }

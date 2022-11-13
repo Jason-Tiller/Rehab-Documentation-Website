@@ -9,8 +9,8 @@
           
           <div class="card-body">
             <h5 class="card-title"><%= posts[i].patientName %> </h5>
-            <p class="card-text"><medium>Dx: <%= posts[i].diagnosis%></small></p>
-            <p class="card-text"><medium>Location: <%= posts[i].locationAddress%></small></p>         
+            <p class="card-text"><medium><h9>Dx:</h9> <%= posts[i].diagnosis%></small></p>
+            <p class="card-text"><medium><h9>Location:</h9> <%= posts[i].locationAddress%></small></p>         
           </div>
           <a href="/post/<%= posts[i]._id%>" class="btn btn-outline-primary">View Patient</a>        
       </div>  
