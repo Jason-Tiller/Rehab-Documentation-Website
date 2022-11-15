@@ -69,6 +69,12 @@ h9{
     background-color: mediumblue;
     border-color: mediumblue;
 }
+.dcBtn {
+    /* margin-left: 13.5rem; */
+    width: auto;
+    height: 30px;
+    color: black;
+}
 
 /* .postInfo{
     text-align: center;
