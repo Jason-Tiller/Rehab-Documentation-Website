@@ -65,6 +65,11 @@ body {
 h9{
     font-weight: bold;
 }
+.fa-star{
+    background-color: mediumblue;
+    border-color: mediumblue;
+}
+
 /* .postInfo{
     text-align: center;
 
